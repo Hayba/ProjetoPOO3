@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Sistema de Contatos</h1>
-        <a href="/contatosFornecedores/lista.jsp">Lista Fornecedores</a>
+        <a href="/Projeto03/contatosFornecedores/lista.jsp">Lista Fornecedores</a>
     </body>
 </html>
