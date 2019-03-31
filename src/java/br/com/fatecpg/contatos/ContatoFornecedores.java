@@ -9,7 +9,7 @@ package br.com.fatecpg.contatos;
  *
  * @author Hayba
  */
-public class Contato {
+public class ContatoFornecedores {
     private String nome;
     private String razaosocial;
     private String cnpj;

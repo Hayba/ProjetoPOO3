@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Hayba
  */
-public class BD {
-    private static ArrayList<Contato> contatos;
-    public static ArrayList<Contato> getContatos(){
+public class BDFornecedores {
+    private static ArrayList<ContatoFornecedores> contatos;
+    public static ArrayList<ContatoFornecedores> getContatos(){
         if(contatos==null){
             contatos = new ArrayList<>();
-            Contato c1 = new Contato();
+            ContatoFornecedores c1 = new ContatoFornecedores();
             c1.setCnpj("11111111111111");
             c1.setNome("Primeira Empresa");
             c1.setRazaosocial("Empresa Primeira");
@@ -25,7 +25,7 @@ public class BD {
             c1.setEmail("Empresa01@email.com");
             contatos.add(c1);
             
-            Contato c2 = new Contato();
+            ContatoFornecedores c2 = new ContatoFornecedores();
             c2.setCnpj("22222222222222");
             c2.setNome("Segunda Empresa");
             c2.setRazaosocial("Empresa Segunda");
