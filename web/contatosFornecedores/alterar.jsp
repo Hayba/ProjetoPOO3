@@ -17,7 +17,7 @@
         <h1>Fornecedores</h1>
         <h2>Alterar</h2>
         <%
-        int index = Integer.parseInt(request.getParameter("index"));
+        int index = Integer.parseInt(request.getParameter("id"));
         ContatoFornecedores c = BDFornecedores.getContatos().get(index);
         %>
         
@@ -35,6 +35,7 @@
             <input type="text" name="telefone" value="<%=c.getTelefone()%>"/><br/>
             E-mail:<br/>
             <input type="text" name="email" value="<%=c.getEmail()%>"/><br/><br/>
+            <
             <input type="submit" name="alterar" value="sim"/>
             <input type="submit" name="alterar" value="nao"/>
             <input type="hidden" name="index" value="<%=index%>"/>

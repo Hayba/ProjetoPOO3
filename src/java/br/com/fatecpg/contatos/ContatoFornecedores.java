@@ -15,7 +15,8 @@ public class ContatoFornecedores {
     private String cnpj;
     private String email;
     private String telefone;
-
+    private String endereco;
+    
     public String getNome() {
         return nome;
     }
@@ -63,6 +64,6 @@ public class ContatoFornecedores {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    private String endereco;
+
     
 }

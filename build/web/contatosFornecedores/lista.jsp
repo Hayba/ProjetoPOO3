@@ -44,5 +44,6 @@
         </table>
         <a href="../index.jsp">HOME</a>
         <a href="adicionar.jsp">Adicionar</a>
+        <a href="excluir.jsp">Excluir</a>
     </body>
 </html>

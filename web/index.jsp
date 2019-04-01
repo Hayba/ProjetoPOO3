@@ -38,7 +38,7 @@
         }
         if(request.getParameter("excluir")!=null){
             if (request.getParameter("excluir").equals("sim")){
-                int index = Integer.parseInt(request.getParameter("index"));
+                int index = Integer.parseInt(request.getParameter("id"));
                 BDFornecedores.getContatos().remove(index);
             }
             response.sendRedirect(request.getRequestURI());
